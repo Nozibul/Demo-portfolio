@@ -91,7 +91,9 @@ h2{
     margin-bottom: 6%;
     margin-top: 4%;
     padding: 25px;
-    border-left: 7px solid tomato;
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
     box-shadow:8px 8px 40px 5px #888888;
 }
 .expH2{
